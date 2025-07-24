@@ -337,8 +337,12 @@ footer {
   gap: 30px;
   padding-top: 40px;
 }
-.footerIcon i {
+.footerIcon a {
   color: #fd6e0a;
+  transition: .3s;
+}
+.footerIcon a:hover{
+  color: #181818;
 }
 .footerRight form{
     padding-bottom: 20px;
