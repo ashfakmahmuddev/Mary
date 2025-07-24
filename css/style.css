@@ -1,0 +1,376 @@
+/* all common css part start  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+/* all common css part end  */
+
+/* banner part css start  */
+
+#banner {
+  background-color: #fff8f3;
+  padding: 50px 0 28px 0;
+  display: flex;
+  position: relative;
+}
+.developerImg {
+  position: absolute;
+}
+.developerImg img {
+  padding-left: 60px;
+}
+
+/* banner part css end  */
+
+/* menu part css start  */
+
+#navber {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu,
+.menu ul {
+  display: flex;
+  align-items: center;
+}
+.menu ul li {
+  margin: 0 35px;
+}
+.menu ul li a {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #474747;
+}
+.menu .btn {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fd6e0a;
+  padding: 20px 30px;
+  /* background-color: #fd6e0a; */
+  border: 2px solid #fd6e0a;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.4s;
+}
+.menu .btn:hover {
+  background-color: #fd6e0a;
+  color: white;
+}
+
+/* menu part css end  */
+
+/* hero part css start  */
+
+.heroImgBack {
+  position: absolute;
+  right: 0;
+  bottom: -4px;
+}
+.heroImgFont {
+  position: absolute;
+  right: 50px;
+  bottom: -4px;
+}
+.heroContent {
+  width: 585px;
+  padding: 200px 0 180px 0;
+}
+.heroContentButton,
+.heroContact {
+  display: flex;
+}
+.heroContentButton {
+  padding-top: 56px;
+}
+.heroContent h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  color: #474747;
+}
+.heroContent h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 85px;
+  color: #181818;
+  padding-bottom: 20px;
+}
+.heroContent p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+}
+.heroContentButton a {
+  border: 2px solid #fd6e0a;
+  border-radius: 5px;
+  outline: none;
+  padding: 25px 20px;
+  background-color: #fff8f3;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fd6e0a;
+  transition: 0.4s;
+}
+.heroContentButton a:hover {
+  background-color: #fd6e0a;
+  color: white;
+}
+
+/* hero part css end  */
+
+/* about part css start  */
+
+.about {
+  margin: 125px 0;
+  width: 100%;
+  background-color: #fff8f3;
+  border-radius: 10px;
+}
+.aboutContent {
+  padding: 130px 155px;
+  margin: 0 auto;
+  text-align: center;
+}
+.aboutContent h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+.aboutContent p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+  padding: 45px 0;
+}
+.personalInfo {
+  display: flex;
+  justify-content: center;
+}
+.personalInfo h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
+  padding: 0 25px;
+}
+.personalInfo h4 span {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+
+/* about part css end  */
+
+/* skills part css start  */
+
+.skill {
+  width: 100%;
+  margin-bottom: 125px;
+}
+.skillHead {
+  width: 100%;
+  text-align: center;
+}
+.skillHead h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+.skillHead p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+  padding: 30px 120px 50px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card1 {
+  width: 200px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.card1 h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #181818;
+  padding: 20px 0;
+}
+.card1 p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  line-height: 30px;
+}
+
+/* skills part css end  */
+
+/* resume part css start  */
+
+#resume {
+  margin-bottom: 120px;
+}
+.resume .resumeHead {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  text-align: center;
+}
+.resumeParts {
+  display: flex;
+  justify-content: space-between;
+}
+.resumePart1Head {
+  width: 100%;
+  display: flex;
+}
+.resumePart1Head h2 {
+  width: 50%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+  padding: 60px 0 30px;
+}
+.resumePart1A h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+}
+.resumePart1A h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  padding: 10px 0 20px;
+}
+.resumePart1A p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  padding-right: 110px;
+}
+.resumeUnderline {
+  height: 2px;
+  width: 95%;
+  background-color: #d1d1d1;
+  margin: 30px 0;
+}
+.resumeBtn {
+  padding-top: 75px;
+  text-align: center;
+}
+.resumeBtn a {
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  outline: none;
+  padding: 25px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* resume part css end  */
+
+/* footer part css start  */
+
+footer {
+  padding: 130px 0;
+  background-color: #fff8f3;
+}
+.footer {
+  display: flex;
+  /* width: 100%; */
+  /* justify-content: space-between; */
+  gap: 40px;
+}
+.footerLeft {
+  width: 50%;
+}
+.footerLeft h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  padding-bottom: 20px;
+}
+.footerLeft p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #474747;
+  line-height: 30px;
+  /* padding-bottom: 20px; */
+}
+.footerIcon {
+  display: flex;
+  gap: 30px;
+  padding-top: 40px;
+}
+.footerIcon i {
+  color: #fd6e0a;
+}
+.footerRight form input {
+  display: block;
+  padding: 25px;
+  width: 460px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+.footerRight form textarea {
+  display: block;
+  padding: 25px;
+  width: 460px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding-bottom: 100px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+.footerRight h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  padding-bottom: 20px;
+}
+
+/* footer part css end  */
