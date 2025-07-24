@@ -340,6 +340,9 @@ footer {
 .footerIcon i {
   color: #fd6e0a;
 }
+.footerRight form{
+    padding-bottom: 20px;
+}
 .footerRight form input {
   display: block;
   padding: 25px;
@@ -371,6 +374,16 @@ footer {
   font-size: 35px;
   color: #181818;
   padding-bottom: 20px;
+}
+.footerRight a {
+  border-radius: 5px;
+  outline: none;
+  padding: 20px 35px;
+  background-color: #fd6e0a;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
 }
 
 /* footer part css end  */
