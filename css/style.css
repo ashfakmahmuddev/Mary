@@ -13,7 +13,7 @@ ol {
 }
 .container {
   margin: 0 auto;
-  width: 1140px;
+  width: 1170px;
 }
 
 /* all common css part end  */
@@ -60,17 +60,17 @@ ol {
 .menu .btn {
   font-size: 20px;
   font-weight: 700;
-  color: #fd6e0a;
+  color: #fff;
   padding: 20px 30px;
-  /* background-color: #fd6e0a; */
+  background-color: #fd6e0a;
   border: 2px solid #fd6e0a;
   border-radius: 5px;
   font-family: "Open Sans", sans-serif;
   transition: 0.4s;
 }
 .menu .btn:hover {
-  background-color: #fd6e0a;
-  color: white;
+  background: transparent;
+  color: #fd6e0a;
 }
 
 /* menu part css end  */
@@ -122,16 +122,16 @@ ol {
   border-radius: 5px;
   outline: none;
   padding: 25px 20px;
-  background-color: #fff8f3;
+  background-color: #fd6e0a;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  color: #fd6e0a;
+  color: #fff;
   transition: 0.4s;
 }
 .heroContentButton a:hover {
-  background-color: #fd6e0a;
-  color: white;
+  background: transparent;
+  color: #fd6e0a;
 }
 
 /* hero part css end  */
@@ -298,6 +298,12 @@ ol {
   font-weight: 700;
   font-size: 20px;
   color: #fff;
+  border: 2px solid #fd6e0a;
+  transition: .4s;
+}
+.resumeBtn a:hover{
+  background: transparent;
+  color: #fd6e0a;
 }
 
 /* resume part css end  */
