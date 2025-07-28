@@ -214,6 +214,9 @@ ol {
   border-radius: 5px;
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
 }
+.card1:hover{
+  box-shadow: 4px 4px 40px #fd6f0a52;
+}
 .card1 h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
